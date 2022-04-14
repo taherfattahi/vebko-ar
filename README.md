@@ -1,7 +1,7 @@
 
 # Augmented Reality for AMT105 device  
 
-Implementing Augmented Reality Android application to show catalog for Tester AMT105 device
+Implementing Augmented Reality Android application to show some specifics of Tester AMT105 device.
 
 
 ## Demo
