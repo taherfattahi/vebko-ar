@@ -1,0 +1,8 @@
+in/codeshuffle/typewriterview/TypeWriterView.java
+ in.codeshuffle.typewriterview.TypeWriterView
+ in.codeshuffle.typewriterview.TypeWriterView$1
+ in.codeshuffle.typewriterview.TypeWriterView$2
+in/codeshuffle/typewriterview/TypeWriterListener.java
+ in.codeshuffle.typewriterview.TypeWriterListener
+in/codeshuffle/typewriterview/BuildConfig.java
+ in.codeshuffle.typewriterview.BuildConfig

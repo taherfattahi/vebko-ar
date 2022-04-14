@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+
+ext {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
+
+    bintrayRepo = 'Test'
+    bintrayName = 'typewriterview'
+
+    publishedGroupId = 'in.codeshuffle'
+    libraryName = 'typewriterview'
+    artifact = 'typewriterview'
+
+    libraryDescription = 'A Library to animate content of textview as if it were typed from a typewriter, with animation listeners!'
+
+    siteUrl = 'https://github.com/skymansandy/typewriterview'
+    gitUrl = 'https://github.com/skymansandy/typewriterview.git'
+
+    libraryVersion = '1.1.0'
+
+    developerId = 'skymansandy'
+    developerName = 'P Sandesh Baliga'
+    developerEmail = 'skymansandycs@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">VebkoAR</string>
+
+    <string name="app_description">AR Video Sample Application</string>
+    <string name="vuforia_key">AbXvErf/////AAAAGTDemifA10S6qiIRhhSNWDYBY7MmnA/Nu6oXBXg4xHSXIz+U1ONigZPfDXxCryUTnInfNKE+mIwzJIpbPy8MkOuP016ctKecovFBV8YrTga0cjqw1pxo3oeoLzPfo8mQz/B+xb8R6/sSmIyPv29L8/GljHHwxWD4prxFAAt95dgFVUDkNvLimwKfiB6Tasv4lSvOj4WQxJnO7k5ibY8x9pD+kh7O8Hu4V+FnCBUk+IzR6CQWeG1ccedASsY+UxRr7Si1OXeScY2VNL5ZjxZm2k2mjzuBsaRVKdb/cLpdKRd8S/6H/VDbA6TLRGlqEZMyyEoMr/Ap8AJqBtJgSeUQwfuIKFOdUlGatsjGWvVi+9ff</string>
+
+    <string name="button_start">Start</string>
+
+    <string name="INIT_ERROR">Error</string>
+    <string name="INIT_ERROR_DEVICE_NOT_SUPPORTED">Failed to initialize. This device is not supported.</string>
+    <string name="INIT_ERROR_NO_CAMERA_ACCESS">Failed to initialize. Camera not accessible</string>
+    <string name="INIT_LICENSE_ERROR_MISSING_KEY">App key is missing.</string>
+    <string name="INIT_LICENSE_ERROR_INVALID_KEY">Invalid Key used.</string>
+    <string name="INIT_LICENSE_ERROR_NO_NETWORK_TRANSIENT">Unable to contact server. Please try again later.</string>
+    <string name="INIT_LICENSE_ERROR_NO_NETWORK_PERMANENT">No network available. Please make sure you are connected to the Internet.</string>
+    <string name="INIT_LICENSE_ERROR_CANCELED_KEY">This app license key has been canceled and may no longer be used.</string>
+    <string name="INIT_LICENSE_ERROR_PRODUCT_TYPE_MISMATCH">App key is not valid for this product.</string>
+    <string name="INIT_LICENSE_ERROR_UNKNOWN_ERROR">Failed to initialize.</string>
+    <string name="menu_back">About</string>
+    <string name="menu_extended_tracking">Extended Tracking</string>
+    <string name="menu_flash">Flash</string>
+    <string name="menu_flash_error_on">Unable to turn on flash</string>
+    <string name="menu_flash_error_off">Unable to turn off flash</string>
+    <string name="menu_contAutofocus">Autofocus</string>
+    <string name="menu_contAutofocus_error_on">Unable to activate Continuous Auto-Focus</string>
+    <string name="menu_contAutofocus_error_off">Unable to deactivate Continuous Auto-Focus</string>
+    <string name="menu_playFullscreenVideo">Play Fullscreen</string>
+    <string name="menu_camera">CAMERA</string>
+    <string name="menu_camera_front">Front</string>
+    <string name="menu_camera_back">Rear</string>
+
+    <string name="splash_screen_description">Splash</string>
+</resources>
